@@ -1,13 +1,17 @@
 /* header navbar */
 #navbarNav {
-  float: right;
+  float: left;
   background: radial-gradient(#fbfffb, transparent);
-  flex-grow: inherit;
+  /* flex-grow: inherit; */
+  margin-right: 178px !important;
 }
 .nav-list {
   margin: 12px;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 15px;
+}
+.nav-link{
+  margin: 5px !important;
 }
 .slider-section {
   position: relative;
@@ -45,4 +49,94 @@
 .list-overlay {
   display: flex;
   justify-content: space-between;
+}
+.nav-item a{
+  border: 1px solid #89c4f4;
+    border-bottom-color: #fff;
+    border-bottom-width: 2px;
+    padding: 6px 15px;
+    box-shadow: 0 2px 0 0 #fff;
+}
+
+/* // imgsection */
+.navbar-brand img{
+  width: 70px;
+  /* height: 50px; */
+}
+/* rightmenu */
+.rightMenu{
+  margin-right:33px;
+}
+.rightMenu ul{
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  /* background-color: #333333; */
+}
+.rightMenu ul li{
+  float: left;
+}
+.rightMenu ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  text-decoration: none;
+}
+.rightMenu ul li img{
+ width: 30px;
+ height: 25px;
+}
+.menuSection{
+  display: block;
+}
+
+
+/* //////////////////**** sidemenu section //////////////////////// */
+  .submenu {
+    margin-top: 40px;
+    margin-left: 200px !important;
+    display: block;
+}
+.sidemenu {
+  display: block;
+}
+.sidemenu ul {
+    list-style: none;
+}
+.sidemenu ul li{
+   font-size:14px
+}
+.sidemenu ul li a{
+   text-decoration: none;
+   color: teal;
+   
+}
+.sidemenu ul li a:hover{
+   color: green;
+   
+}
+
+.offcanvas.offcanvas-start {
+  top: 87px !important;
+ 
+}
+.offcanvas-backdrop.show {
+  opacity: 0 !important;
+}
+.togglebarmenu{
+
+}
+
+/* HOme page sidebar menu right  */
+.col-sm-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+  float: right;
+}
+.row>* {
+  /* width: 0 !important; */
+  
 }
